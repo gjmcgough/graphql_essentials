@@ -11,13 +11,13 @@ export const resolvers = {
   Mutation:{
     createFriend: (root, {input}) => {
       const newFriend = new Friends({
-        firstName: input.firstName;
-        lastName: input.lastName;
-        gender: input.gender;
-        age: input.age;
-        language: input.language;
-        email: input.email;
-        contacts: input.contacts;
+        firstName: input.firstName,
+        lastName: input.lastName,
+        gender: input.gender,
+        age: input.age,
+        language: input.language,
+        email: input.email,
+        contacts: input.contacts,
       });
 
       newFriend.id = newFriend._idl
