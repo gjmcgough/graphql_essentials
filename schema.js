@@ -10,10 +10,6 @@ const schema = buildSchema(`
     emails: String
   }
 
-  type Email {
-    email: String
-  }
-
   type Query {
     friend: Friend
   }
