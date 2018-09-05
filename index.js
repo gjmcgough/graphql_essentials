@@ -10,10 +10,10 @@ app.get('/', (req, res) => {
 
 const root = { hello: () => "Hi, I'm the WORLD" };
 
-app.use("/graphql", graphqlHTTP({
+app.use("/graphql_essentials", graphqlHTTP({
   schema: schema,
   rootValue: root,
   graphiql: true,
 }));
 
-app.listen(8080, () => console.log('Running server on Port localhost:8080/graphql'));
+app.listen(8080, () => console.log('Running server on Port localhost:8080/graphql_essentials'));
