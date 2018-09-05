@@ -20,7 +20,7 @@ const schema = buildSchema(`
     lastName: String
     gender: String
     language: String
-    emails: String
+    email: String
   }
 
   type Mutation {
