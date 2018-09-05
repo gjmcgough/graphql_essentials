@@ -7,10 +7,6 @@ const schema = buildSchema(`
     lastName: String
     gender: String
     language: String
-    emails: String
-  }
-
-  type Email {
     email: String
   }
 
@@ -21,7 +17,7 @@ const schema = buildSchema(`
   input FriendInput {
     id: ID
     firstName: String!
-    lastName: String!
+    lastName: String
     gender: String
     language: String
     emails: String
