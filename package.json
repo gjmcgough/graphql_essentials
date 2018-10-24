@@ -23,7 +23,7 @@
     "mongoose": "^5.2.13",
     "nodemon": "^1.18.3",
     "sequelize": "^4.38.0",
-    "sqlite3": "^4.0.2"
+    "sqlite3": "^4.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

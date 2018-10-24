@@ -20,7 +20,7 @@ export const resolvers = {
         contacts: input.contacts,
       });
 
-      newFriend.id = newFriend._idl
+      newFriend.id = newFriend._id;
 
       return new Promise((resolve, object) => {
         newFriend.save((err) => {
