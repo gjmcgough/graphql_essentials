@@ -36,6 +36,11 @@ export const resolvers = {
           else resolve(friend)
         })
       })
-    }
+    },
+    deleteFriend: (root, {input}) => {
+      return new Promise((resolve, object) => {
+        Friends.findOneAndDelete({_id: input.id})
+      })
+    },
   },
 };
