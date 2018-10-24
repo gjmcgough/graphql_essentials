@@ -33,6 +33,7 @@ const typeDefs = `
 
   type Query {
     getFriend(id: ID): Friend
+    getAliens: [Alien]
   }
 
   input FriendInput {
@@ -54,6 +55,7 @@ const typeDefs = `
   type Mutation {
     createFriend(input: FriendInput): Friend
     updateFriend(input: FriendInput): Friend
+    deleteFriend(id: ID!): String
   }
 `;
 
